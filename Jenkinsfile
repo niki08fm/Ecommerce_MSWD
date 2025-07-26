@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/niki08fm/Ecommerce_MSWD.git'
                 echo 'Code checked out successfully!'
             }
         }
